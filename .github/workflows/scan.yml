@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'mysql:8.0-bookworm'
+          default: 'ubuntu:noble-20250127'
 
 # env:
 #   REGISTRY: ghcr.io
